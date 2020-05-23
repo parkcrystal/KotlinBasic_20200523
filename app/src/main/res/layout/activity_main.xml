@@ -13,6 +13,7 @@
         android:hint="입력하면 밑에 반영됨" />
 
     <Button
+        android:id="@+id/okBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="확인" />
