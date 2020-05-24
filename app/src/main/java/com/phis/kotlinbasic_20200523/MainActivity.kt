@@ -15,7 +15,12 @@ class MainActivity : AppCompatActivity() {
             
 //            로그로 버튼 이벤트 확인
 //            Log.d("메인화면", "확인버튼 눌림")
-            
+
+//            EditText에 적혀있는 내용을 String으로 변환 (우측)
+//            inputContent 이름의 저장공간을 생성 (좌측)
+//            우측의 값을 => 좌측의 공간에 복사
+            val inputContent = inputEdt.text.toString()
+
             resultTxt.text = "버튼이 눌림"
         }
     }
